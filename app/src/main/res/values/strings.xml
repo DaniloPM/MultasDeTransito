@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">MultasDeTransito</string>
+
+
+    <string name="action_settings">Settings</string>
+
+    <string name="tituloOpciones">OPCIONES</string>
+    <string-array name="lstOpciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+        <item>@string/reportar</item>
+    </string-array>
+    <string name="registrar">Registrar</string>
+    <string name="listar">Listar</string>
+    <string name="reportar">Informes</string>
+
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="lblPlaca">Placa</string>
+    <string name="lblMarca">Marca</string>
+    <string name="lblModelo">Modelo</string>
+    <string name="lblColor" translatable="false">Color</string>
+    <string name="lblPrecio">Precio</string>
+    <string-array name="marca_spinner">
+        <item>@string/kia</item>
+        <item>@string/chevrolet</item>
+        <item>@string/renault</item>
+    </string-array>
+    <string name="kia" translatable="false">Kia</string>
+    <string name="chevrolet" translatable="false">Chevrolet</string>
+    <string name="renault" translatable="false">Renault</string>
+    <string-array name="modelo_spinner">
+        <item>2018</item>
+        <item>2017</item>
+        <item>2016</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+
+    </string-array>
+    <string-array name="Multa_spinner">
+        <item>@string/Multa1</item>
+        <item>@string/Multa2</item>
+        <item>@string/Multa3</item>
+
+    </string-array>
+    <string name="Multa1">300000</string>
+    <string name="Multa2">600000</string>
+    <string name="Multa3">900000</string>
+    <string name="msjTitulo">Notificación</string>
+    <string name="msjCuerpo">Carro guardado correctamente</string>
+    <string name="msjError1Cuerpo">Los 3 primeros caracteres de la placa deben ser letras</string>
+    <string name="msjError2Cuerpo">Los 3 últimos caracteres de la placa deben ser números</string>
+    <string name="msjError3Cuerpo">El campo placa no puede estar vacío</string>
+    <string name="msjError4Cuerpo">El campo placa debe contener 3 caracteres y 3 Numeros</string>
+
+    <string name="title_activity_listar">Listar</string>
+
+    <string name="title_activity_reportar">Reportar</string>
+    <string name="tituloInformes">INFORMES</string>
+    <string-array name="Informes_array">
+        <item>@string/informe_1</item>
+        <item>@string/informe_2</item>
+        <item>@string/informe_3</item>
+
+    </string-array>
+    <string name="informe_1">Carros Multados Por Exceso de Velocidad</string>
+    <string name="informe_2">Carros Multados Por Manejar Bajo Estado De Embriagues</string>
+    <string name="informe_3">Carros Multados Por No Tener Papeles</string>
+
+    <string name="btnRegistrar">Registrar</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+
+    <string name="title_activity_informe_1" translatable="false">Informe_1</string>
+    <string name="lblInforme1">La cantidad de carros registrados es: </string>
+
+    <string name="title_activity_informe_2" translatable="false">Informe_2</string>
+    <string name="lblInforme2">CARROS REGISTRADOS POR MARCA</string>
+    <string name="lblInforme2_1">Carros registrados Kia: </string>
+    <string name="lblInforme2_2">Carros registrados Chevrolet: </string>
+    <string name="lblInforme2_3">Carros registrados Renault: </string>
+
+    <string name="title_activity_informe_3" translatable="false">Informe_3</string>
+    <string name="lblInforme3">CARROS REGISTRADOS POR COLOR</string>
+    <string name="lblInforme3_1">Carros registrados de color negro:</string>
+    <string name="lblInforme3_2">Carros registrados de color rojo:</string>
+    <string name="lblInforme3_3">Carros registrados de color blanco:</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="Multa">Multa</string>
+    <string name="TipoMulta">Tipo Multa</string>
+    <string name="NoTieneMulta">Carro Sin Multa</string>
+    <string name="exceso_de_velocidad">Exceso De Velocidad</string>
+    <string name="estado_de_embriagues">Estado De Embriagues</string>
+    <string name="Sin_Papeles">Sin Papeles</string>
+    <string name="blanco">Blanco</string>
+    <string name="usuario">usuario</string>
+    <string name="password">password</string>
+    <string name="Multas">Multas</string>
+
+
+
+</resources>

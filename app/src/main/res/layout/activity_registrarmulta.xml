@@ -1,0 +1,104 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrarMulta">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblPlaca" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtPlaca"
+                android:inputType="text" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblMarca" />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/marca_spinner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/lblModelo" />
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/modelo_spinner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Multa" />
+
+            <Spinner
+                android:id="@+id/Multa_spinner"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/TipoMulta" />
+
+            <CheckBox
+                android:id="@+id/chkExcesoVelocidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/exceso_de_velocidad" />
+
+            <CheckBox
+                android:id="@+id/chkEstadoEmbriagues"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/estado_de_embriagues" />
+
+            <CheckBox
+                android:id="@+id/chkSinPapeles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/Sin_Papeles" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnRegistrar"
+                    android:onClick="registrar" />
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/btnLimpiar"
+                    android:onClick="limpiar" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
